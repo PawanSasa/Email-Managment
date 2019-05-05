@@ -1,11 +1,14 @@
 # Email-Managment
 Email Management Service
 
-How to run
+# How to run
 
-Clone the repositary 
-run "npm install" in cmd
-run "node app.js" in cmd
+- Clone the repo
+- Add SendGrip api key in *config-> default.js -> SendGrid -> SENDGRID_API_KEY* 
+ ```sh
+$ npm install
+$ node app.js
+```
 
 End points
 

@@ -1,6 +1,6 @@
 module.exports={
     "SendGrid":{
-        "SENDGRID_API_KEY":"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"
+        "SENDGRID_API_KEY":""
     },
 
     "Mongo":{

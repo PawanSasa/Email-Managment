@@ -36,8 +36,7 @@ class EmailService{
                     from: req.body.from,
                     subject: req.body.subject,
                     text: req.body.text,
-                    html: req.body.html,
-                    _id:uuid
+                    html: req.body.html
                 };
 
                 let isValidTime = validHandler.checkTimeFrame();

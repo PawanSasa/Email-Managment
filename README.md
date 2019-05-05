@@ -5,6 +5,7 @@ Email Management Service
 
 - Clone the repo
 - Add SendGrip api key in *config-> default.js -> SendGrid -> SENDGRID_API_KEY* 
+- Add Mongo Connection string  in *config-> default.js -> Mongo -> ConStr* 
  ```sh
 $ npm install
 $ node app.js

@@ -1,5 +1,5 @@
 const config = require('config');
-const apiKey = config.SENDGRID_API_KEY;
+const apiKey = config.SendGrid.SENDGRID_API_KEY;
 const uuidv1 = require('uuid/v1');
 const validHandler = require('./ValidationHandler');
 const {DBHandler} = require('./DBHandler');
